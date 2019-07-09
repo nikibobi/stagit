@@ -85,19 +85,19 @@ pre {
 }
 
 pre a.h {
-	color: #00a;
+	color: lightblue;
 }
 
 .A,
 span.i,
 pre a.i {
-	color: #070;
+	color: lightgreen;
 }
 
 .D,
 span.d,
 pre a.d {
-	color: #e00;
+	color: lightcoral;
 }
 
 pre a.h:hover,
