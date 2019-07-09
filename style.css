@@ -1,7 +1,23 @@
+@font-face {
+	font-family: 'Fontin';
+	src: url('./fonts/Fontin-Regular.woff') format('woff'),
+	  url('./fonts/Fontin-Regular.woff2') format('woff2');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Fira Code';
+	src: url('./fonts/FiraCode-Regular.woff') format('woff'),
+	  url('./fonts/FiraCode-Regular.woff2') format('woff2');
+	font-weight: normal;
+	font-style: normal;
+}
+
 body {
 	color: #eee;
 	background-color: #222;
-	font-family: monospace;
+	font-family: 'Fontin', serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -80,8 +96,9 @@ hr {
 	height: 1px;
 }
 
-pre {
-	font-family: monospace;
+pre, tr.url {
+	font-family: 'Fira Code', 'Monospace', monospace;
+	font-size: 12px;
 }
 
 pre a.h {
